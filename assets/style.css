@@ -400,37 +400,27 @@ h2 {
     transform: none;
     margin: 0 auto 40px;
   }
-
   h1 {
     font-size: 52px;
   }
-
   .intro {
     font-size: 19px;
   }
-
   .cards,
   .stats {
     grid-template-columns: 1fr;
   }
-ы
   .buttons {
     flex-direction: column;
   }
-
   .button {
     width: 100%;
   }
 }
 @media (max-width: 768px) {
-
   .cards {
     grid-template-columns: 1fr;
   }
-  .stats {
-    grid-template-columns: 1fr;
-  }
-}
   .stats {
     grid-template-columns: 1fr;
   }
@@ -441,6 +431,7 @@ h2 {
   .stats div:last-child {
     border-bottom: none;
   }
+}
 .landing {
   min-height: 100vh;
   display: flex;
